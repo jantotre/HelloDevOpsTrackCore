@@ -10,7 +10,12 @@ namespace CoreTests
         }
 
 
-
+        [Test]
+        public void DenneFeiler()
+        {
+            Assert.Pass("feiler ikke allikavell");
+        }
+        
         [Test]
         public void DenneFeilerIkke()
         {
